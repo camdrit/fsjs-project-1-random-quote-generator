@@ -133,11 +133,11 @@ const printQuote = () => {
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
 
-// let's make the page show another quote every five seconds...
+// let's make the page show another quote every ten seconds...
 // A fun idea for the future is to animate the background color of the 'Show Another Quote' button 
 // like a progress bar as the interval counts down.
 // I'd like to come back to this project in the future and expand on it to add stuff like this :)
 
 setInterval(function () {
   document.getElementById('load-quote').click();
-}, 5000);
+}, 10000);
